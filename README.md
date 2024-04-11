@@ -2,18 +2,18 @@
 
 ```mermaid
  classDiagram
-Program <|-- Class01 : Cool
+Color <|-- Program : Use
 
-Class01 : Color c1
-Class01 : int currentColo1
-Class01 : int currentColo2
-Class01 : int currentColo3
-Class01 : Color color1
-Class01 : Color c2
-Class01 : int currentColo4
-Class01 : int currentColo5
-Class01 : int currentColo6
-Class01 : Color color2
+Program : Color c1
+Program : int currentColo1
+Program : int currentColo2
+Program : int currentColo3
+Program : Color color1
+Program : Color c2
+Program : int currentColo4
+Program : int currentColo5
+Program : int currentColo6
+Program : Color color2
 
 
 
