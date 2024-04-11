@@ -18,7 +18,22 @@ namespace BetterColorSpheres
             int currentColor5 = c2.Green;
             int currentColor6 = c2.Blue;
 
-            Sphere sphere = new Sphere();
+            Color color2 = new Color(currentColor4, currentColor5, currentColor6);
+
+            Sphere sphere1 = new Sphere(color1, 4);
+            Sphere sphere2 = new Sphere(color2, 4);
+
+            sphere1.Thrown();
+            sphere1.Pop();
+            sphere1.Thrown();
+
+            sphere2.Thrown();
+            sphere2.Thrown();
+
+            Console.WriteLine($"Thrown number sphere 1: {sphere1.GetTimesThrown()}");
+
+            Console.WriteLine($"Thrown number sphere 2: {sphere2.GetTimesThrown()}");
+
 
         }
     }
