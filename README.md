@@ -2,7 +2,7 @@
 
 ```mermaid
  classDiagram
-Program <|-- AveryLongClass : Cool
+Program <|-- Class01 : Cool
 
 Class01 : Color c1
 Class01 : int currentColo1
