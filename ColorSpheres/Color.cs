@@ -11,14 +11,13 @@ namespace ColorSpheres
         private int r;
         private int g;
         private int b;
-        private int a;
+        public const int a = 255;
 
         public Color(int r, int g, int b)
         {
             this.r = r;
             this.g = g;
             this.b = b;
-            a = 255;
         }
 
         public int GetRed ()
