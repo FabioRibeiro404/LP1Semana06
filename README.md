@@ -3,6 +3,7 @@
 ```mermaid
  classDiagram
 Color <|-- Program : Use
+Sphere <|-- Program : Use
 
 Program : Color c1
 Program : int currentColo1
@@ -20,6 +21,14 @@ Color : +Green
 Color : Blue
 Color : +Alpha
 Color : +Gray
+
+Sphere : +Radius
+Sphere : +BallColor
+Sphere : +NumberOfThrown
+Sphere : +Thrown(): int
+Sphere : +Pop(): int
+Sphere : +GetTimesThrown(): int
+
 
 
 ```
