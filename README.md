@@ -15,6 +15,11 @@ Program : int currentColo5
 Program : int currentColo6
 Program : Color color2
 
+Color : +Red
+Color : +Green
+Color : Blue
+Color : +Alpha
+Color : +Gray
 
 
 ```
