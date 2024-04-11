@@ -25,9 +25,9 @@ Color : +Gray
 Sphere : +Radius
 Sphere : +BallColor
 Sphere : +NumberOfThrown
-Sphere : +Thrown() : int
-Sphere : +Pop() : int
-Sphere : +GetTimesThrown() : int
+Sphere : +Thrown()
+Sphere : +Pop()
+Sphere : +GetTimesThrown()
 
 
 
