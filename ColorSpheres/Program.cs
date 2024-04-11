@@ -21,9 +21,9 @@ namespace ColorSpheres
             sphere2.Thrown();
 
 
-            Console.WriteLine($"Thrown number: {sphere1.GetTimesThrown()}");
+            Console.WriteLine($"Thrown number sphere 1: {sphere1.GetTimesThrown()}");
 
-            Console.WriteLine($"Thrown number: {sphere2.GetTimesThrown()}");
+            Console.WriteLine($"Thrown number sphere 2: {sphere2.GetTimesThrown()}");
 
         }
     }
